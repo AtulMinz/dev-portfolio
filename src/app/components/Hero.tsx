@@ -15,7 +15,7 @@ export default function Hero() {
                 transition={{ duration: 1.0 }}
             >
                 <p
-                    className="text-6xl mt-4 font-bold z-20 bg-clip-text bg-gradient-to-b from-neutral-200 to-neutral-500 relative text-transparent text-center"
+                    className="text-6xl  mt-4 font-bold z-20 bg-clip-text bg-gradient-to-b from-neutral-200 to-neutral-500 relative text-transparent text-center"
                 >Hello World, I&apos;m Atul Minz</p>
                 <p
                     className="mt-2 text-[1.1rem] md:text-[1.8rem] lg:text-[2rem] md:text-xl relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 pb-2 md:py-3 w-[70%] text-center"
