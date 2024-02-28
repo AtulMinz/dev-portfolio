@@ -10,7 +10,7 @@ export default function BackgroundImage(){
                    style={{
                        objectFit: "cover",
                        zIndex: -1,
-                       opacity: 1,
+                       opacity: 0.6,
                        overflow: "hidden"
                    }}/>
             <Image src="ooorganize.svg" alt='hero-background' fill
@@ -18,7 +18,7 @@ export default function BackgroundImage(){
                    style={{
                        objectFit: "cover",
                        zIndex: -1,
-                       opacity: 1,
+                       opacity:0.6,
                        overflow: "hidden"
                    }}/>
         </div>
