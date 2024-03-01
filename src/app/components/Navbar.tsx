@@ -25,12 +25,12 @@ const links: Navlink[] = [
 
 export default function Navbar() {
     return (
-        <motion.div className="z-[20] fixed bottom-0 left-[1.5rem] right-[1.5rem] md:sticky md:top-0 md:block md:w-[40%] py-6 lg:w-[20%] mx-auto"
+        <motion.div className="z-[20] fixed bottom-0 left-[1.5rem] right-[1.5rem] md:top-0 md:block md:w-[40%] py-6 lg:w-[20%] mx-auto"
         initial={{opacity: 0, y:"-100%"}}
         animate={{opacity: 1, y: 0}}
         transition={{duration: 0.5}}
         >
-            <div className="pointer-events-auto rounded-full text-sm font-medium text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
+            <div className="pointer-events-auto rounded-full text-sm font-medium text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 opacity-80 hover:opacity-100 hover:scale-110 duration-200">
                 <ul className="flex justify-center justify-between py-4 px-6 rounded-full text-white/90 text-sm font-medium text-zinc-200 shadow-lg shadow-zinc-800/5 ring-1 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 ring-white/10">
                     {links.map((link) => (
                         <li key={link.name}>
