@@ -12,7 +12,7 @@ export default function Aboutme() {
   const frontend = [
     { name: "React", image: "react.svg" },
     { name: "Next.js", image: "nextjs-full.svg" },
-    { name: "Css", image: "css-3.svg" },
+    { name: "CSS", image: "css-3.svg" },
     { name: "Tailwind css", image: "tailwindcss-icon.svg" },
   ];
 
@@ -31,7 +31,7 @@ export default function Aboutme() {
 
   return (
     <div className="lg:pt-20 rounded-lg p-[1px] my-2 w-full">
-      <div className="bg-neutral-900 rounded-lg p-8 flex flex-col md:flex-row gap-6 border-2 border-violet-600 shadow-lg shadow-violet-800">
+      <div className="bg-[#222222] rounded-lg p-8 flex flex-col md:flex-row gap-6 border-2 border-violet-600 shadow-lg shadow-violet-800">
         <div className="flex flex-col items-center md:items-start">
           <h2 className="font-semibold gap-1 text-center text-gray-300 md:items-start tracking-tighter text-[clamp(1rem,5vw,1.5rem)] leading-none inline-flex mb-4 border-b w-fit pb-2">
             About me
