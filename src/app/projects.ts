@@ -27,6 +27,6 @@ export const projects = [
     description:
       "A crowdfunding website where user can donate to campaigns usign flow token.",
     githuburl: "https://github.com",
-    image: "/public/thumbnail.png",
+    image: "course.png",
   },
 ];
