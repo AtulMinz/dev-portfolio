@@ -16,7 +16,7 @@ export default function About() {
             className="rounded-full border-2 border-white"
           />
           <div>
-            <h1 className="text-2xl font-bold">hi, i&apos;m atulya</h1>
+            <h1 className="text-2xl font-bold">hi, i&apos;m atulya minz</h1>
             <p className="text-gray-400 text-sm">
               a full-stack and web3 developer, from India.
             </p>
@@ -100,7 +100,9 @@ export default function About() {
             <div className="w-[2px] h-auto bg-gray-400 group-hover:bg-red-300 transition duration-300"></div>
 
             <div className="ml-4">
-              <h3 className="font-semibold">Winner at MLH Web3Apps</h3>
+              <h3 className="font-semibold">
+                Winner at MLH Web3Apps Hackathon
+              </h3>
               <p className="text-sm text-gray-400">
                 <a
                   href="https://devpost.com/software/flowfund"
@@ -121,7 +123,9 @@ export default function About() {
             <div className="w-[2px] h-auto bg-gray-400 group-hover:bg-red-300 transition duration-300"></div>
 
             <div className="ml-4">
-              <h3 className="font-semibold">Winner at MLH Web3Apps</h3>
+              <h3 className="font-semibold">
+                Winner at MLH Web3Apps Hackathon
+              </h3>
               <p className="text-sm text-gray-400">
                 <a
                   href="https://devpost.com/software/taskflow-nl752t"
