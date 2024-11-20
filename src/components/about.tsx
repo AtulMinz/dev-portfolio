@@ -73,14 +73,13 @@ export default function About() {
           <h2 className="text-lg font-bold">achievements.</h2>
 
           <div className="mt-6 flex group">
-            {/* Vertical Bar */}
             <div className="w-[2px] h-auto bg-gray-400 group-hover:bg-red-300 transition duration-300"></div>
 
             <div className="ml-4">
               <h3 className="font-semibold">Winner at MLH Web3Apps</h3>
               <p className="text-sm text-gray-400">
                 <a
-                  href="https://rava.ai"
+                  href="https://devpost.com/software/flowfund"
                   className="underline hover:text-white"
                 >
                   devpost
@@ -95,14 +94,13 @@ export default function About() {
           </div>
 
           <div className="mt-6 flex group">
-            {/* Vertical Bar */}
             <div className="w-[2px] h-auto bg-gray-400 group-hover:bg-red-300 transition duration-300"></div>
 
             <div className="ml-4">
               <h3 className="font-semibold">Winner at MLH Web3Apps</h3>
               <p className="text-sm text-gray-400">
                 <a
-                  href="https://skillrazr.com"
+                  href="https://devpost.com/software/taskflow-nl752t"
                   className="underline hover:text-white"
                 >
                   devpost
