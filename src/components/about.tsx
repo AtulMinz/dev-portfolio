@@ -55,7 +55,7 @@ export default function About() {
                 Drop message on X
               </button>
               <a
-                href="/AtulMinz-Resume.pdf"
+                href="AtulMinz-Resume.pdf"
                 className="group flex items-center transition"
                 download={true}
               >
