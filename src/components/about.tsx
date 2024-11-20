@@ -55,8 +55,9 @@ export default function About() {
                 Drop message on X
               </button>
               <a
-                href="/resume.pdf"
+                href="/AtulMinz-Resume.pdf"
                 className="group flex items-center transition"
+                download={true}
               >
                 Resume
                 <span className="ml-2 inline-block transform transition-transform duration-300 group-hover:translate-x-2">
