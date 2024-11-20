@@ -16,7 +16,7 @@ export default function About() {
             className="rounded-full border-2 border-white"
           />
           <div>
-            <h1 className="text-2xl font-bold">hi, i'm atulya</h1>
+            <h1 className="text-2xl font-bold">hi, i&apos;m atulya</h1>
             <p className="text-gray-400 text-sm">
               a full-stack and web3 developer, from India.
             </p>
@@ -44,12 +44,12 @@ export default function About() {
         <section id="about" className="mt-8">
           <h2 className="text-lg font-bold">about me.</h2>
           <p className="mt-2">
-            i'm a passionate full-stack developer who learns and transforms
+            i&apos;m a passionate full-stack developer who learns and transforms
             complex problems into simple, beautiful, and intuitive solutions
             through development and design.
           </p>
           <div className="dark:bg-[#27272a] p-4 rounded-lg mt-4 bg-slate-200">
-            <p>i'm open to collabarate. feel free to:</p>
+            <p>i&apos;m open to collabarate. feel free to:</p>
             <div className="flex space-x-4 mt-4">
               <button className="bg-black text-white px-4 py-2 rounded-md border">
                 Drop message on X
