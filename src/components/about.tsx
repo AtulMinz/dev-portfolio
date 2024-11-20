@@ -21,22 +21,46 @@ export default function About() {
               a full-stack and web3 developer, from India.
             </p>
             <div className="flex space-x-3 mt-2">
-              <FaLinkedin
-                className=" hover:text-white cursor-pointer"
-                size={18}
-              />
-              <FaXTwitter
-                className=" hover:text-white cursor-pointer"
-                size={18}
-              />
-              <FaGithub
-                className=" hover:text-white cursor-pointer"
-                size={18}
-              />
-              <FaEnvelope
-                className=" hover:text-white cursor-pointer"
-                size={18}
-              />
+              <a
+                href="https://www.linkedin.com/in/atulya-minz-714022179/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin
+                  className="hover:text-white cursor-pointer"
+                  size={18}
+                />
+              </a>
+              <a
+                href="https://x.com/fxith_dev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaXTwitter
+                  className="hover:text-white cursor-pointer"
+                  size={18}
+                />
+              </a>
+              <a
+                href="https://github.com/AtulMinz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub
+                  className="hover:text-white cursor-pointer"
+                  size={18}
+                />
+              </a>
+              <a
+                href="mailto:atulminz.jsr@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaEnvelope
+                  className="hover:text-white cursor-pointer"
+                  size={18}
+                />
+              </a>
             </div>
           </div>
         </div>
