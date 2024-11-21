@@ -107,7 +107,7 @@ export default function About() {
               <p className="text-sm text-gray-400">
                 <a
                   href="https://devpost.com/software/flowfund"
-                  className="underline hover:text-white"
+                  className="underline dark:hover:text-white hover:text-black"
                 >
                   devpost
                 </a>
@@ -130,7 +130,7 @@ export default function About() {
               <p className="text-sm text-gray-400">
                 <a
                   href="https://devpost.com/software/taskflow-nl752t"
-                  className="underline hover:text-white"
+                  className="underline dark:hover:text-white hover:text-black"
                 >
                   devpost
                 </a>
