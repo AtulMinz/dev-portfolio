@@ -76,9 +76,15 @@ export default function About() {
           <div className="dark:bg-[#27272a] p-4 rounded-lg mt-4 bg-slate-200">
             <p>i&apos;m open to collabarate. feel free to:</p>
             <div className="flex space-x-4 mt-4">
-              <button className="bg-black text-white px-4 py-2 rounded-md border">
-                Drop message on X
-              </button>
+              <a
+                href="https://x.com/fxith_dev"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <button className="bg-black text-white px-4 py-2 rounded-md border">
+                  Drop message on X
+                </button>
+              </a>
               <a
                 href="AtulMinz-Resume.pdf"
                 className="group flex items-center transition"
