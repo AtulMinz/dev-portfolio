@@ -13,7 +13,7 @@ const projects = [
   {
     name: "FlowFund",
     description: [
-      "Managed the development and implementation of Flowfund, a decentralized crowdfunding platform leveraging the Flow blockchain",
+      "Managed the development and implementation of Flowfund, a decentralized crowdfunding platform leveraging the Flow blockchain.",
       "Designed and optimized a user-friendly interface for seamless campaign funding using Flow tokens, ensuring a smooth user experience.",
     ],
     github: "https://github.com/AtulMinz/flowfund",
@@ -25,7 +25,7 @@ const projects = [
     description: [
       "Pioneered the development of Novacast, a cutting-edge streaming platform allowing users to broadcast live content directly through their web browsers.",
       "Integrated web sockets technology to facilitate real-time communication and seamless streaming experiences for Novacasters.",
-      "Utilized ffmpeg to enable the conversion of media streams to RTMP (Real-Time Messaging Protocol), ensuring efficient and reliable transmission of live content on the platform",
+      "Utilized ffmpeg to enable the conversion of media streams to RTMP (Real-Time Messaging Protocol), ensuring efficient and reliable transmission of live content on the platform.",
     ],
     github: "https://github.com/AtulMinz/novacast",
     status: "📦completed",
