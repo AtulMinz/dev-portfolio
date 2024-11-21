@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import Project from "./project";
 
 export default function About() {
   return (
@@ -68,9 +69,9 @@ export default function About() {
         <section id="about" className="mt-8">
           <h2 className="text-lg font-bold">about me.</h2>
           <p className="mt-2">
-            i&apos;m a passionate full-stack developer who learns and transforms
-            complex problems into simple, beautiful, and intuitive solutions
-            through development and design.
+            i&apos;m a full-stack and Web3 developer passionate about creating
+            innovative and intuitive solutions. I love tackling challenges,
+            building impactful projects, and collaborating to make a difference.
           </p>
           <div className="dark:bg-[#27272a] p-4 rounded-lg mt-4 bg-slate-200">
             <p>i&apos;m open to collabarate. feel free to:</p>
@@ -84,7 +85,7 @@ export default function About() {
                 download={true}
               >
                 Resume
-                <span className="ml-2 inline-block transform transition-transform duration-300 group-hover:translate-x-2">
+                <span className="ml-2 inline-block transform transition-transform duration-300 group-hover:translate-x-1">
                   &rarr;
                 </span>
               </a>
@@ -141,6 +142,9 @@ export default function About() {
               </p>
             </div>
           </div>
+        </section>
+        <section id="projects" className="mt-8">
+          <Project />
         </section>
       </div>
     </main>
