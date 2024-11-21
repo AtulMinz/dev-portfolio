@@ -22,7 +22,7 @@ export default function RootLayout({
         <body className="dark:bg-[#121212] dark:text-white text-md font-semibold">
           <ThemeProvider
             attribute="class"
-            defaultTheme="dark"
+            defaultTheme="system"
             enableSystem
             disableTransitionOnChange
           >
