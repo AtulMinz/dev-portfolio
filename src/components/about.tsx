@@ -119,7 +119,7 @@ export default function About() {
                 </a>
                 (march)
               </p>
-              <p className="text-gray-400 mt-2">
+              <p className="dark:text-gray-400 mt-2 text-black">
                 Bagged First prize at MLH Web3Apps Hackathon. Created{" "}
                 <span className="underline">Flowfund</span>
               </p>
@@ -142,7 +142,7 @@ export default function About() {
                 </a>
                 (april)
               </p>
-              <p className="text-gray-400 mt-2">
+              <p className="dark:text-gray-400 mt-2 text-black">
                 Bagged First prize at MLH Web3Apps Hackathon. Created{" "}
                 <span className="underline">TaskFlow</span>
               </p>

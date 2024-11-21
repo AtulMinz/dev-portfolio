@@ -82,7 +82,7 @@ export default function Project() {
             </p>
 
             {/* Description */}
-            <ul className="list-disc pl-5 mt-4 text-gray-500 dark:text-gray-400">
+            <ul className="list-disc pl-5 mt-4 text-black dark:text-gray-400">
               {project.description.map((point, idx) => (
                 <li key={idx} className="mb-2">
                   {point}
