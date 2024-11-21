@@ -60,7 +60,7 @@ export default function Project() {
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline hover:text-white"
+                className="underline dark:hover:text-white hover:text-black"
               >
                 source code
               </a>
