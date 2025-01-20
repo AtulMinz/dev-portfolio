@@ -33,7 +33,7 @@ export default function About() {
                 />
               </a>
               <a
-                href="https://x.com/fxith_dev"
+                href="https://x.com/atulmnz"  
                 target="_blank"
                 rel="noopener noreferrer"
               >
